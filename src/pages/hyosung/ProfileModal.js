@@ -1,10 +1,16 @@
 import React from 'react';
 
-import './modal.scss';
-function Modal({ profileImg, nickname, userid, setModal, modalBackClick }) {
+import './ProfileModal.scss';
+function ProfileModal({
+  profileImg,
+  nickname,
+  userid,
+  setModal,
+  modalBackClick,
+}) {
   return (
     <>
-      <div className="modalBack" onClick={modalBackClick}></div>
+      <div className="modalBack" onClick={modalBackClick} />
       <div className="modalWrapAll">
         <div className="modalWrap">
           <img className="modalImage" src={profileImg} />
@@ -24,4 +30,4 @@ function Modal({ profileImg, nickname, userid, setModal, modalBackClick }) {
     </>
   );
 }
-export default Modal;
+export default ProfileModal;

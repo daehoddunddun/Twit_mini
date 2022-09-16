@@ -1,7 +1,7 @@
 .moreLookBack {
   width: 100%;
   height: 100vh;
-  z-index: 20;
+  z-index: 120;
 }
 .moreLookWrap {
   display: flex;
@@ -16,8 +16,9 @@
   font-size: 15px;
   border-radius: 5px;
   box-shadow: 1px 1px 10px 2px #e3e7ea;
-  left: 354px;
-  z-index: 100;
+  left: 310px;
+  z-index: 10;
+  cursor: pointer;
 }
 
 .moreLookContent {

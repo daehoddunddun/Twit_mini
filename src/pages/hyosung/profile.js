@@ -1,6 +1,5 @@
-import { click } from '@testing-library/user-event/dist/click';
 import React, { useState } from 'react';
-import Modal from './modal';
+import ProfileModal from './ProfileModal';
 import ModalPortal from '../seunghoon/MainFeed/Portal';
 function Profile({ profile, nickname, userid, profileImg }) {
   const [modal, setModal] = useState(false);
@@ -26,7 +25,7 @@ function Profile({ profile, nickname, userid, profileImg }) {
       </div>
       <ModalPortal>
         {modal && (
-          <Modal
+          <ProfileModal
             profileImg={profileImg}
             nickname={nickname}
             userid={userid}

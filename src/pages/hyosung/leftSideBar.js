@@ -7,9 +7,6 @@ import MoreLook from './moreLook';
 import { useEffect, useState } from 'react';
 import TwitModal from './twitModal';
 
-import Modal from '../seunghoon/MainFeed/Modal';
-import ModalPortal from '../seunghoon/MainFeed/Portal';
-
 function LeftSideBar({}) {
   useEffect(() => {
     fetch('/data/profile.json', {
@@ -86,9 +83,6 @@ function LeftSideBar({}) {
           nickname={profile.nickname}
           userid={profile.userid}
           profileImg={profile.profileImg}
-          joinDay={profile.joinDay}
-          follow={profile.follow}
-          follower={profile.follower}
         />
       </div>
     </>
