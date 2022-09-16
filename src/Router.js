@@ -18,6 +18,9 @@ const Router = () => {
         <Route path="/Login" element={<Login />} />
       </Routes>
       {path === '/Login' || path === '/login' ? null : (
+
+      {path === '/Login' ? null : (
+
         <>
           <MainTrend />
           <LeftSideBar />

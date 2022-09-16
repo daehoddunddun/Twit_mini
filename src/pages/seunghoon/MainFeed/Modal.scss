@@ -23,6 +23,10 @@
     margin-top: 65px;
     margin-left: 20px;
     border: none;
+ twit/hyosung/leftSideBar
+=======
+
+ master
     .profileImg {
       img {
         margin-top: 13px;
@@ -55,6 +59,7 @@
           height: 300px;
         }
       }
+
       .twitText {
         margin-bottom: 15px;
         line-height: 130%;
@@ -90,6 +95,7 @@
           display: flex;
           align-items: center;
           margin-right: 30px;
+
           img {
             width: 20px;
             height: 20px;
@@ -106,6 +112,9 @@
     color: gray;
     font-size: 17px;
     display: flex;
+ twit/hyosung/leftSideBar
+
+ master
     .userId {
       color: #4393cd;
       margin-left: 10px;
@@ -115,6 +124,8 @@
     height: 189px;
     display: flex;
     padding: 0px 16px;
+
+
     .writerProfileImg {
       img {
         height: 53px;
@@ -148,6 +159,7 @@
         justify-content: space-between;
         align-items: center;
         margin-bottom: 5px;
+
         .uploadContents {
           display: flex;
           .uploadImg {
@@ -155,6 +167,7 @@
             width: 36px;
             padding: 6px;
             filter: opacity(0.4) drop-shadow(0 0 0 blue);
+
             .inputForImg {
               display: none;
             }
